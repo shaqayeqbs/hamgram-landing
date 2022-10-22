@@ -1,0 +1,141 @@
+.container {
+  background-color: rgba(10, 34, 41, 1);
+  min-height: 25rem;
+  width: 100%;
+  color: rgba(208, 236, 245, 1);
+  padding: 3rem 5rem;
+}
+
+.flexContainer {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+  padding-bottom: 1.5rem;
+}
+
+.flexContainer h3 svg {
+  margin: -0.5rem 0 0 0.6rem;
+}
+.flexContainer div span {
+  display: inline-block;
+  margin: 0 1rem;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 34px;
+  letter-spacing: -0.3px;
+  padding: 0.5rem 0;
+  color: #ffffff;
+}
+
+.flexContainer div button {
+  background: #d0ecf5;
+  border-radius: 15px;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 26px;
+  letter-spacing: -0.231818px;
+  padding: 0.5rem 1rem;
+  color: #1e2833;
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 0;
+}
+
+.footer div h6 {
+  margin-bottom: 2.5rem;
+}
+
+.footer div p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 23px;
+  text-align: right;
+  letter-spacing: -0.204545px;
+  color: rgba(255, 255, 255, 0.32);
+  margin: 0.8rem 0;
+}
+
+.footer div div {
+  width: 60%;
+  margin-bottom: 2rem;
+  font-size: 15px;
+  line-height: 23px;
+  text-align: right;
+  letter-spacing: -0.204545px;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer h5 {
+  font-size: 16px;
+  line-height: 25px;
+  text-align: right;
+  letter-spacing: -0.3px;
+  color: #ffffff;
+  margin-bottom: 1.5rem;
+}
+
+.footer a {
+  font-size: 14px;
+  line-height: 18px;
+  text-align: right;
+  width: 18rem;
+  letter-spacing: -0.3px;
+  color: #ffffff;
+  background: rgba(208, 236, 245, 0.04);
+  border: 1px solid rgba(208, 236, 245, 0.24);
+  padding: 0.5rem 3.5rem;
+  text-decoration: none;
+}
+.footer a span {
+  margin: 0 0.5rem;
+}
+
+@media screen and (max-width: 1100px) {
+  .container {
+    padding: 3rem 2rem;
+  }
+  .footer {
+    display: block;
+    margin: auto;
+    text-align: center;
+  }
+  .footer h5 {
+    text-align: center;
+  }
+  .footer div p {
+    text-align: center;
+  }
+
+  .footer div div {
+    width: 100%;
+    text-align: center;
+  }
+  .flexContainer div button {
+    font-size: 13px;
+    line-height: 20px;
+  }
+  .flexContainer div span {
+    display: none;
+  }
+  .footer h5 {
+    margin-top: 5rem;
+  }
+  .footer a {
+    padding: 0.5rem 2rem;
+  }
+}
+@media screen and (max-width: 290px) {
+  .footer {
+    display: block;
+    margin: 0;
+  }
+  .footer a {
+    padding: 0.5rem 0rem;
+  }
+  .container {
+    padding: 3rem 2rem;
+  }
+}

@@ -1,0 +1,159 @@
+.section {
+  width: 100%;
+  max-width: 24rem;
+  background: #d0ecf5;
+  border-radius: 26px;
+  padding: 1rem 3rem;
+  font-size: 16px;
+  line-height: 35px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #0f2420;
+}
+
+.section h4 {
+  width: 100%;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.02em;
+  color: #0f2420;
+}
+
+.container {
+  overflow: hidden;
+  max-width: unset;
+}
+.container div img {
+  width: unset;
+}
+
+.container div div {
+  text-align: center;
+  background-color: transparent;
+  font-size: 16px;
+}
+.container div div div {
+  background-color: #d0ecf5;
+}
+.container > div:nth-child(3),
+.container > div:nth-child(2) {
+  border-radius: 50%;
+  font-weight: bolder;
+  width: 4rem;
+  height: 4rem;
+  color: black;
+  margin: initial 14%;
+}
+.container > div:nth-child(3) {
+  left: 2.5%;
+  background-color: white;
+}
+.container > div:nth-child(2) {
+  right: 2.5%;
+  background-color: white;
+}
+
+.container > div:nth-child(3):after {
+  margin-left: 2.5rem;
+  color: black;
+  background-color: white;
+  border-radius: 50%;
+}
+.container > div:nth-child(2):after {
+  margin-right: 2.5rem;
+  color: black;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.gradientWrapper {
+  margin-top: 1.5rem;
+  padding: 0;
+  width: 6.5rem;
+  height: 6.5rem;
+  border-radius: 50%;
+  display: inline-block;
+}
+.container img {
+  background: linear-gradient(rgba(250, 0, 255, 1), rgba(255, 0, 0, 0));
+}
+.maincircle {
+  width: 100%;
+  padding: 4px;
+  height: 6.25rem;
+  border-radius: 50%;
+}
+
+.flexContainer {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+.flexContainer div {
+  margin: 0 0.5rem;
+  padding: 0.5rem;
+}
+
+.flexContainer span {
+  width: 100%;
+  max-width: 6rem;
+  background: #0f2420;
+  text-align: center;
+  border-radius: 28px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 36px;
+  letter-spacing: 0.02em;
+  color: #24ff00;
+  padding: 0.5rem 0;
+  margin: auto;
+}
+.flexContainer span svg {
+  margin: auto 0.5rem;
+}
+@media screen and (max-width: 1100px) {
+  .container div:nth-child(3) {
+    left: 0.5%;
+  }
+  .container div:nth-child(2) {
+    right: 0.5%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .container div:nth-child(3) {
+    left: 0%;
+  }
+  .container div:nth-child(2) {
+    right: 0%;
+  }
+  .container {
+    padding: 0;
+    text-align: center;
+    left: 0;
+  }
+  .container > div:nth-child(3),
+  .container > div:nth-child(2) {
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: white;
+  }
+  .container div {
+    margin: auto;
+    text-align: center;
+    width: 100%;
+  }
+  .section {
+    width: 100%;
+    display: inline-block;
+    max-width: initial;
+    margin: auto;
+    text-align: center;
+  }
+
+  .container img {
+    margin: auto;
+    margin-top: 1rem;
+    background: linear-gradient(rgba(250, 0, 255, 1), rgba(255, 0, 0, 0));
+  }
+}

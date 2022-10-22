@@ -1,0 +1,172 @@
+.header {
+  position: fixed;
+  display: flex;
+  background-color: white;
+  width: 100%;
+  place-content: space-between;
+  height: 6rem;
+  border: 1px solid #f0f0f0;
+  top: 0;
+  margin: auto;
+  padding: 0 2rem;
+  z-index: 10;
+}
+.nav {
+  width: 100%;
+  display: flex;
+  place-content: space-between;
+}
+
+.header ul li {
+  display: inline-block;
+  cursor: pointer;
+  padding: 2rem 1rem;
+}
+.rightLink li {
+  margin: 0 2rem;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  color: rgba(15, 36, 32, 0.4);
+}
+.rightLink h5,
+.navhandler {
+  display: inline-block;
+  margin-left: 1rem;
+  cursor: pointer;
+  margin-right: -1.5rem;
+}
+.rightLink h5 svg {
+  margin-left: 0.5rem;
+}
+
+.leftLink {
+  text-align: center;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  width: 11rem;
+  line-height: 25px;
+  border-radius: 15px;
+  color: white;
+  background-color: #2f99a5;
+  padding: 1.2rem 0rem;
+  margin: auto;
+}
+.moshavereBtn {
+  text-decoration: none;
+  color: #2f99a5;
+  padding: 1.2rem 0rem;
+  margin: auto 2rem;
+}
+.moshavereBtn:hover {
+  color: black;
+}
+
+.leftLink:hover {
+  color: #2f99a5;
+  text-align: center;
+  margin: auto 0;
+  background: transparent;
+  border-radius: 15px;
+}
+
+.rightLink li:hover {
+  color: #2f99a5;
+}
+.header svg {
+  margin: 0rem 2rem 0rem 0;
+}
+
+.header > svg {
+  margin: 1rem 2rem 0rem 0;
+}
+
+.navhandler {
+  width: 100%;
+  display: none;
+  cursor: pointer;
+}
+
+.sidebar {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  background-color: rgb(233, 233, 233);
+  width: 250px;
+  height: 100vh;
+  justify-content: center;
+  transition: 1s ease-out;
+  z-index: 10;
+}
+.hidesidebar {
+  position: fixed;
+  left: -100%;
+  top: 0;
+  height: 100vh;
+  width: 250px;
+  height: 100vh;
+  transition: 2s ease-out;
+}
+.mobnav {
+  direction: ltr;
+  text-align: right;
+  padding: 2rem 1rem;
+  display: block;
+}
+@media screen and (max-width: 1430px) {
+  .header {
+    padding: 0;
+    padding-left: 2rem;
+    margin: 0;
+  }
+  .rightLink li {
+    margin: 0 0.4rem;
+  }
+  .header ul li {
+    padding: 2rem 0.3rem;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .sidebar {
+    display: block;
+  }
+  .rightLink li {
+    margin: 0 0.3rem;
+  }
+  .leftLink {
+    padding: 0.8rem 0.5rem;
+    margin: auto 0.2rem;
+  }
+  .rightLink h5 {
+    margin-left: 0.3rem;
+  }
+  .header {
+    padding: 2rem 1rem;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .navhandler {
+    display: flex;
+  }
+  .nav {
+    display: none;
+  }
+  .leftLink {
+    width: 100%;
+    max-width: 7rem;
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .leftLink:hover {
+    background-color: white;
+    color: #2f99a5 !important;
+  }
+  .header > svg {
+    margin: -0.3rem 2rem 0rem 0;
+  }
+}

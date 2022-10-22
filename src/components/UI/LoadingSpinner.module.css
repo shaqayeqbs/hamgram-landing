@@ -1,0 +1,32 @@
+.spinner {
+  position: fixed;
+  display: inline-block;
+  width: 100%;
+  margin: auto;
+  top: 50%;
+  right: -50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: 200;
+}
+.spinner:after {
+  content: " ";
+  display: block;
+  width: 80px;
+  height: 80px;
+
+  margin: auto;
+  border-radius: 50%;
+  border: 8px solid #2f99a5;
+  border-color: #2f99a5 transparent #2f99a5 transparent;
+  animation: spinner 1.2s linear infinite;
+  align-items: center;
+}
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

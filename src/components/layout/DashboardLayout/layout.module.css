@@ -1,0 +1,43 @@
+.container {
+  padding: 2rem 0;
+  isolation: isolate;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: #eeeeee;
+  min-height: 100vh;
+  width: calc(100% - 15rem);
+  margin-right: auto;
+}
+
+.fixedsidebar {
+  height: 100%;
+  width: 15rem;
+  position: fixed;
+  isolation: isolate;
+  top: 0;
+  right: 0;
+  overflow: hidden;
+  background-color: #2f99a5;
+}
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 0rem 0 2rem 0;
+    border-radius: 0px;
+    width: calc(100%);
+  }
+  .fixedsidebar {
+    width: 100%;
+    background-color: transparent;
+    height: 2rem;
+    z-index: 2;
+    isolation: isolate;
+  }
+}
+@media screen and (max-width: 450px) {
+  .container {
+    display: inline-block;
+    margin: 0;
+    padding-bottom: 6rem;
+    padding: 0rem;
+  }
+}

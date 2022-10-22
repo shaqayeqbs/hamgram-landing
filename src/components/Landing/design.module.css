@@ -1,0 +1,224 @@
+@import "../../index.css";
+
+.WhatDoWeDoContainer {
+  display: block;
+  width: 90%;
+  text-align: left;
+  margin-top: 5rem;
+  margin-right: 10%;
+}
+.WhereAreYouContaienr {
+  width: 100%;
+  margin-right: 0%;
+}
+.whereAreYouSection {
+  text-align: center;
+  padding: 3rem 0;
+  background-color: #f3fafc;
+}
+.whereAreYouSection h1 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 50px;
+  letter-spacing: 0.01em;
+  margin-bottom: 1rem;
+}
+
+.whereAreYouSection p {
+  width: 70%;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 46px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  margin: auto;
+  color: #0f2420;
+}
+.whereAreYouSection button {
+  background-color: #2f99a5;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  padding: 0.7rem 1rem;
+}
+.whereAreYouSection > button svg {
+  font-size: 19px;
+  margin-right: 1.5rem;
+}
+.services {
+  padding: 2rem;
+  background-color: var(--main);
+  text-align: center;
+  margin: 0 auto;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 56px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+}
+.services h2 {
+  font-weight: 700;
+  font-size: 37px;
+  line-height: 56px;
+  letter-spacing: 0.01em;
+}
+
+.services span {
+  display: inline-block;
+  margin-top: 1rem;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.services strong {
+  font-weight: 200;
+}
+
+.content h1 {
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: 0.01em;
+  margin-bottom: 2rem;
+  color: #0f2420;
+}
+.content p {
+  font-size: 20px;
+  line-height: 33px;
+  text-align: right;
+  letter-spacing: 0.03em;
+
+  color: rgba(15, 36, 32, 0.5);
+}
+.content a {
+  display: block;
+  color: white;
+  padding: 1rem 0;
+  background: #2f99a5;
+  border-radius: 15px;
+  text-decoration: none;
+  max-width: 14rem;
+  margin-top: 2rem;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.3px;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  place-content: space-between;
+  background: #ffffff;
+  border-radius: 44px;
+  height: 47.7rem;
+  color: black;
+  margin-top: 2rem;
+}
+.direction {
+  direction: ltr;
+}
+.card div svg {
+  width: 100%;
+}
+
+.card div img {
+  margin: 6rem 0 0 0;
+}
+.card div {
+  width: 50%;
+}
+
+.content {
+  margin: auto;
+  max-width: 35rem;
+  text-align: right;
+}
+.WhatDoWeDoMob {
+  display: none;
+  width: 100%;
+  padding-top: 2rem;
+}
+.WhereIsYourPathMob {
+  background-color: #f3fafc;
+  display: none;
+  width: 100%;
+  padding-top: 2rem;
+}
+
+@media screen and (max-width: 1100px) {
+  .WhatDoWeDoContainer,
+  .WhereAreYouContaienr {
+    display: none;
+  }
+
+  .WhatDoWeDoMob,
+  .WhereIsYourPathMob {
+    display: block;
+  }
+  .card {
+    display: block;
+    height: auto;
+  }
+  .services h2 {
+    font-size: 24px;
+    line-height: 37px;
+  }
+  .services span,
+  strong,
+  .content p {
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 0;
+  }
+  .services strong {
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 700;
+  }
+  .card {
+    text-align: center;
+    padding: 2rem 0;
+    border-radius: 18px;
+  }
+  .card div {
+    width: 90%;
+  }
+  .content {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+  }
+  .content h1 {
+    width: 100%;
+    font-size: 32px;
+    line-height: 64px;
+  }
+  .content a {
+    display: none;
+  }
+  .card div img {
+    margin: auto;
+    margin-top: 3rem;
+  }
+  .card div {
+    margin: auto;
+    padding: 0;
+  }
+  .direction {
+    direction: ltr !important;
+  }
+  .whereAreYouSection h1 {
+    font-size: 24px;
+    line-height: 37px;
+  }
+  .whereAreYouSection p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
