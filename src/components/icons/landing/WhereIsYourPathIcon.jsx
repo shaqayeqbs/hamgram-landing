@@ -12,9 +12,9 @@ function WhereIsYourPathIcon() {
       <path
         d="M1466 232.5C1438.5 267 1300.5 373 1219 348.5C1114.5 350 1138.5 101.5 1013.5 105C888.5 108.5 910.5 350 784 348.5C657.5 347 687 105 553 105C419 105 483.5 348.5 327 348.5C170.5 348.5 216 105 101 105C50 98 34.1667 173.667 25 198"
         stroke="#CBCBCB"
-        stroke-width="5"
-        stroke-linejoin="round"
-        stroke-dasharray="10 10"
+        strokeWidth="5"
+        strokeLinejoin="round"
+        strokeDasharray="10 10"
       />
       <rect x="1029.5" y="39" width="205" height="83" rx="14" fill="white" />
       <path
@@ -96,9 +96,9 @@ function WhereIsYourPathIcon() {
           width="212"
           height="212"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -131,9 +131,9 @@ function WhereIsYourPathIcon() {
           width="212"
           height="212"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -166,9 +166,9 @@ function WhereIsYourPathIcon() {
           width="212"
           height="212"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -201,9 +201,9 @@ function WhereIsYourPathIcon() {
           width="212"
           height="212"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -236,9 +236,9 @@ function WhereIsYourPathIcon() {
           width="212"
           height="212"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -271,9 +271,9 @@ function WhereIsYourPathIcon() {
           width="212"
           height="212"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"

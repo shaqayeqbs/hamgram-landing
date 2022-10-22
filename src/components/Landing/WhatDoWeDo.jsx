@@ -10,7 +10,7 @@ import { AiOutlineLeft } from "react-icons/ai";
 function WhatDoWeDo() {
   return (
     <>
-      <Element name="what-are-we-doing?">
+      <Element name="#what-are-we-doing?">
         <div className={classes.WhatDoWeDoContainer}>
           <WhatDoWeDoIcon />
         </div>
@@ -18,7 +18,7 @@ function WhatDoWeDo() {
           <WhatDoWeDoMob />
         </div>
       </Element>
-      <Element name="where-is-your-path?">
+      <Element name="#where-is-your-path?">
         <div className={classes.whereAreYouSection}>
           {" "}
           <h1>تو کجای این مسیری ؟</h1>

@@ -6,7 +6,7 @@ import PlaceholderImg from "../icons/landing/PlaceholderImg";
 
 function TopDesign() {
   return (
-    <Element name="hamgram">
+    <Element name="#hamgram">
       <section className={classes.section}>
         <div className={classes.mobImg}>
           <PlaceholderImg />

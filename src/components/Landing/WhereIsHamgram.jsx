@@ -6,7 +6,7 @@ import { Element } from "react-scroll";
 
 function WhereIsHamgram() {
   return (
-    <Element name="where-is-hamgram">
+    <Element name="#where-is-hamgram">
       <section className={classes.section}>
         <div className={classes.content}>
           <h2>همگرام کجاست؟</h2>

@@ -12,9 +12,9 @@ function WhereIsYourPathMob() {
       <path
         d="M433 48.5C394 91.5 273 208.5 102.5 208.5C76.5 278.5 344.5 320.5 374.5 354C393.5 484 192.5 440.5 93.5001 495.5C192 655 329 553 364 617.5C331.5 699 157.167 712.5 37 743"
         stroke="#CBCBCB"
-        stroke-width="5"
-        stroke-linejoin="round"
-        stroke-dasharray="10 10"
+        strokeWidth="5"
+        strokeLinejoin="round"
+        strokeDasharray="10 10"
       />
       <g filter="url(#filter0_d_998_932)">
         <circle cx="373" cy="98" r="32" fill="white" />
@@ -96,9 +96,9 @@ function WhereIsYourPathMob() {
           width="196"
           height="196"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -131,9 +131,9 @@ function WhereIsYourPathMob() {
           width="196"
           height="196"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -166,9 +166,9 @@ function WhereIsYourPathMob() {
           width="196"
           height="196"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -201,9 +201,9 @@ function WhereIsYourPathMob() {
           width="196"
           height="196"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -236,9 +236,9 @@ function WhereIsYourPathMob() {
           width="196"
           height="196"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"
@@ -271,9 +271,9 @@ function WhereIsYourPathMob() {
           width="196"
           height="196"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"

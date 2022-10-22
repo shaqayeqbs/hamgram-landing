@@ -17,10 +17,10 @@ function LandingPage() {
       <WhereIsHamgram />
       <WhatDoWeDo />
 
-      <Element name="services">
+      <Element name="#services">
         <Services />
       </Element>
-      <Element name="successful-companinos">
+      <Element name="#successful-companinos">
         <SuccessfulCompaninos />
       </Element>
       <Footer />

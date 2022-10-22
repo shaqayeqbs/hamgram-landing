@@ -6,6 +6,7 @@ import { BrowserRouter } from "react-router-dom";
 // import { Provider } from "react-redux";
 import "./index.css";
 import "./fonts/YekanBakh/YekanBakh-Regular.ttf";
+import * as serviceWorkerRegistration from "./serviceWorkerRegistration";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -16,3 +17,5 @@ root.render(
     {/* </Provider> */}
   </BrowserRouter>
 );
+
+serviceWorkerRegistration.register();
