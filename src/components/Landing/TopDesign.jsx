@@ -24,8 +24,12 @@ function TopDesign() {
             باشی و با خلاقیت، روی بازار هدفت تاثیر بذاری!
           </p>
           <div>
-            <button>همین حالا شروع کن</button>
-            <Link to="services" offset={-100}>
+            <div className={classes.linkBtn}>
+              {" "}
+              <a href="http://test.hamgramco.ir/dashboard">همین حالا شروع کن</a>
+            </div>
+
+            <Link to="#services" offset={-100}>
               <span>
                 <span>خدمات ما</span>
                 <AiOutlineLeft />

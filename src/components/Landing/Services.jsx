@@ -33,7 +33,7 @@ function Services() {
             قرار داده شود. یک پاراگراف توضیخ برای این قسمت در موردپنل تحلیل
             رقبای همگرام باید قرار داده شود.
           </p>
-          <Link to="somePath"> همین حالا شروع کن </Link>
+          <a href="http://test.hamgramco.ir/dashboard">همین حالا شروع کن</a>
         </div>
         <div>
           <img src={secondLogo} alt="" />

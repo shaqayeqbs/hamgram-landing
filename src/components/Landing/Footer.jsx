@@ -14,7 +14,9 @@ function Footer() {
         </h3>
         <div>
           <span>الان وقتشه که شروع کنی!</span>
-          <button>همین حالا شروع کن</button>
+          <div className={classes.linkBtn}>
+            <a href="http://test.hamgramco.ir/dashboard">همین حالا شروع کن</a>
+          </div>
         </div>
       </div>
       <div className={classes.footer}>

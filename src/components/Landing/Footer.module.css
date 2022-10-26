@@ -27,17 +27,6 @@
   color: #ffffff;
 }
 
-.flexContainer div button {
-  background: #d0ecf5;
-  border-radius: 15px;
-  font-weight: 700;
-  font-size: 17px;
-  line-height: 26px;
-  letter-spacing: -0.231818px;
-  padding: 0.5rem 1rem;
-  color: #1e2833;
-}
-
 .footer {
   width: 100%;
   display: flex;
@@ -92,6 +81,20 @@
 .footer a span {
   margin: 0 0.5rem;
 }
+.linkBtn {
+  display: inline-block;
+}
+.linkBtn a {
+  background: #d0ecf5;
+  border-radius: 15px;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 26px;
+  letter-spacing: -0.231818px;
+  padding: 0.5rem 1rem;
+  color: #1e2833;
+  text-decoration: none;
+}
 
 @media screen and (max-width: 1100px) {
   .container {
@@ -113,7 +116,7 @@
     width: 100%;
     text-align: center;
   }
-  .flexContainer div button {
+  .linkBtn {
     font-size: 13px;
     line-height: 20px;
   }

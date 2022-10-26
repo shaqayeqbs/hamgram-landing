@@ -13,11 +13,11 @@ function MainNavigation() {
   const navHandler = () => {
     setNav(!nav);
   };
-  let url = "/http://auth";
+  let url = "http://test.hamgramco.ir/auth";
   if (token === "") {
     setToken(localStorage.getItem("token"));
   } else {
-    url = "http://dashboard";
+    url = "http://test.hamgramco.ir/dashboard";
   }
 
   return (
