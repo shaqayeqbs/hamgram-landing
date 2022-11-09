@@ -7,9 +7,12 @@
   background: #0a2229;
   color: white;
   margin-top: 4rem;
+  max-height: 108rem;
+  max-height: 40rem;
 }
 .section img {
-  width: 100%;
+  width: 156rem;
+  max-height: 108rem;
 }
 .section div h2 {
   color: var(--main);
@@ -26,7 +29,7 @@
 
 .content {
   position: absolute;
-  width: calc(100% - 41.25rem);
+  width: 50%;
   height: max-content;
   text-align: center;
   top: 25%;
@@ -57,7 +60,13 @@
 .content a div {
   margin: 0.2rem 0 0 0.8rem;
 }
-
+.img {
+  display: inline-block;
+}
+.mobImg {
+  display: none;
+  width: 100%;
+}
 .content a:hover {
   color: var(--main);
 }
@@ -65,14 +74,28 @@
   .section {
     display: block;
     margin-top: 0rem;
+    padding-bottom: 0;
+  }
+  .img {
+    display: none;
+  }
+  .mobImg {
+    display: inline-block;
   }
   .content {
     position: static;
     text-align: center;
     width: 100%;
     padding: 2rem;
-    padding-bottom: 4rem;
+    padding-bottom: 0;
   }
+  .section img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    background-color: redx;
+  }
+
   .content a {
     margin: auto;
   }

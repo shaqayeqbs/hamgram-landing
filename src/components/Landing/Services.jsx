@@ -3,6 +3,7 @@ import classes from "./design.module.css";
 import ServicesFirstIcon from "../icons/landing/ServicesFirstIcon";
 import { Link } from "react-router-dom";
 import secondLogo from "../icons/landing/secondSvg.svg";
+import servicePic from "../icons/landing/servicePic.svg";
 
 function Services() {
   return (
@@ -20,10 +21,16 @@ function Services() {
           </p>
           <Link to="somePath">درخواست مشاوره </Link>
         </div>
-        <div>
+        <div className={classes.none}>
           {" "}
           <ServicesFirstIcon />
         </div>
+
+        <img
+          src={servicePic}
+          alt="hamgram picture"
+          className={classes.servicePic}
+        />
       </div>
       <div className={`${classes.card} ${classes.direction}`}>
         <div className={classes.content}>
@@ -36,11 +43,11 @@ function Services() {
           <a href="http://test.hamgramco.ir/dashboard">همین حالا شروع کن</a>
         </div>
         <div>
-          <img src={secondLogo} alt="" />
+          <img src={secondLogo} alt="hamgram picture" />
         </div>
       </div>
 
-      <div className={classes.card}>
+      {/* <div className={classes.card}>
         <div className={classes.content}>
           <h1>استودیو طراحی وایا </h1>
           <p>
@@ -54,7 +61,7 @@ function Services() {
           {" "}
           <ServicesFirstIcon />
         </div>
-      </div>
+      </div> */}
     </section>
   );
 }

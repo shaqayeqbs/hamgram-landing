@@ -8,7 +8,7 @@
   border: 1px solid #f0f0f0;
   top: 0;
   margin: auto;
-  padding: 0 2rem;
+  padding: 0 3rem;
   z-index: 10;
 }
 .nav {
@@ -20,7 +20,7 @@
 .header ul li {
   display: inline-block;
   cursor: pointer;
-  padding: 2rem 1rem;
+  padding: 2rem 0.5rem;
 }
 .rightLink li {
   margin: 0 2rem;
@@ -50,7 +50,7 @@
   border-radius: 15px;
   color: white;
   background-color: #2f99a5;
-  padding: 1.2rem 0rem;
+  padding: 0.8rem 0rem;
   margin: auto;
 }
 .moshavereBtn {

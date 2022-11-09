@@ -20,9 +20,9 @@ function LandingPage() {
       <Element name="#services">
         <Services />
       </Element>
-      <Element name="#successful-companinos">
+      {/* <Element name="#successful-companinos">
         <SuccessfulCompaninos />
-      </Element>
+      </Element> */}
       <Footer />
     </>
   );

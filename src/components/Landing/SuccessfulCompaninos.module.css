@@ -9,6 +9,7 @@
   line-height: 31px;
   text-align: right;
   letter-spacing: 0.01em;
+  padding: 0 3.5rem;
   color: rgba(15, 36, 32, 0.4);
 }
 
@@ -24,9 +25,10 @@
   line-height: 66px;
   text-align: right;
   letter-spacing: 0.01em;
-  width: 40%;
+  width: 44%;
   color: #0f2420;
   margin: 2rem 0;
+  padding: 0 3.5rem;
 }
 .container h1 strong {
   font-weight: 900;

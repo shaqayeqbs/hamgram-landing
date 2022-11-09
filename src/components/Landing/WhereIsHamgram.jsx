@@ -1,8 +1,9 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import classes from "./WhereIsHamgram.module.css";
 import InstagramIcon from "../icons/InstagramIcon";
 import { Element } from "react-scroll";
+import WhereIsHamgramPic from "../icons/landing/WhereIsHamgramPic.svg";
+import WhereIsHamgramMob from "../icons/landing/WhereIsHamgramMob.svg";
 
 function WhereIsHamgram() {
   return (
@@ -16,15 +17,14 @@ function WhereIsHamgram() {
           </h3>
           <a href="https://instagram.com/hamgramco?igshid=YmMyMTA2M2Y=">
             <div>hamgramco</div>
-
             <InstagramIcon />
           </a>
         </div>
-        <div>
-          <img
-            src="/images/people.png"
-            alt="here is a picture of happy people"
-          />
+        <div className={classes.img}>
+          <img src={WhereIsHamgramPic} alt="" />
+        </div>
+        <div className={classes.mobImg}>
+          <img src={WhereIsHamgramMob} alt="" />
         </div>
       </section>
     </Element>

@@ -64,6 +64,7 @@
   letter-spacing: -0.3px;
   color: #ffffff;
   margin-bottom: 1.5rem;
+  margin-top: 2rem;
 }
 
 .footer a {
@@ -128,6 +129,11 @@
   }
   .footer a {
     padding: 0.5rem 2rem;
+  }
+  .linkBtn a {
+    padding: 0.5rem;
+    font-size: 13px;
+    line-height: 20px;
   }
 }
 @media screen and (max-width: 290px) {
