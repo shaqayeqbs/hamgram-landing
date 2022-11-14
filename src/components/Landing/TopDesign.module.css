@@ -1,7 +1,7 @@
 .section {
   display: flex;
   width: 100%;
-
+  position: relative;
   place-content: space-between;
 
   padding-bottom: 3rem;
@@ -30,8 +30,10 @@
   cursor: pointer;
 }
 .section div a svg {
+  position: absolute;
   width: 1rem;
   margin: 0 1.5rem;
+  margin-top: 2rem;
 }
 
 .img img {
@@ -70,6 +72,10 @@
     display: block;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+  .section div a svg {
+    margin-top: 1.2rem;
+    margin-right: 0.5rem;
   }
   .section div h1 {
     width: 100%;

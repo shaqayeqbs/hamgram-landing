@@ -2,6 +2,7 @@ import React from "react";
 import { Route, Routes } from "react-router-dom";
 import NotFound from "./pages/NotFound";
 import "react-toastify/dist/ReactToastify.css";
+import LoadingSpinner from "./components/UI/LoadingSpinner";
 
 const LandingPage = React.lazy(() => import("./pages/LandingPage"));
 
@@ -11,7 +12,7 @@ const RoutesList = () => {
       <Route
         path="/"
         element={
-          <React.Suspense fallback={<>...Loading</>}>
+          <React.Suspense fallback={<LoadingSpinner />}>
             <LandingPage />
           </React.Suspense>
         }

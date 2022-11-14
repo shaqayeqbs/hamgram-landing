@@ -2,7 +2,7 @@ import React from "react";
 import classes from "./TopDesign.module.css";
 import { Link, Element } from "react-scroll";
 import { AiOutlineLeft } from "react-icons/ai";
-import PlaceholderImg from "../icons/landing/PlaceholderImg";
+// import PlaceholderImg from "../icons/landing/PlaceholderImg";
 import TopDesignIcon from "../icons/landing/TopDesign.svg";
 
 function TopDesign() {

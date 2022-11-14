@@ -1,7 +1,6 @@
 import React from "react";
 import classes from "./design.module.css";
 import ServicesFirstIcon from "../icons/landing/ServicesFirstIcon";
-import { Link } from "react-router-dom";
 import secondLogo from "../icons/landing/secondSvg.svg";
 import servicePic from "../icons/landing/servicePic.svg";
 
@@ -19,18 +18,14 @@ function Services() {
             داده شود. یک پاراگراف توضیخ برای این قسمت در مورد آموزش و مشاوره
             باید قرار داده شود.
           </p>
-          <Link to="somePath">درخواست مشاوره </Link>
+          <a href="https://zeeg.me/hamgramco">درخواست مشاوره </a>
         </div>
         <div className={classes.none}>
           {" "}
           <ServicesFirstIcon />
         </div>
 
-        <img
-          src={servicePic}
-          alt="hamgram picture"
-          className={classes.servicePic}
-        />
+        <img src={servicePic} alt="hamgram" className={classes.servicePic} />
       </div>
       <div className={`${classes.card} ${classes.direction}`}>
         <div className={classes.content}>
@@ -43,7 +38,7 @@ function Services() {
           <a href="http://test.hamgramco.ir/dashboard">همین حالا شروع کن</a>
         </div>
         <div>
-          <img src={secondLogo} alt="hamgram picture" />
+          <img src={secondLogo} alt="hamgram" />
         </div>
       </div>
 

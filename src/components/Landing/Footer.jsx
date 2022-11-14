@@ -9,8 +9,11 @@ function Footer() {
     <footer className={classes.container}>
       <div className={classes.flexContainer}>
         <h3>
-          <HamgramLogo />
-          HAMGRAM
+          <div>
+            {" "}
+            <HamgramLogo />
+          </div>
+          <span> HAMGRAM</span>
         </h3>
         <div>
           <span>الان وقتشه که شروع کنی!</span>

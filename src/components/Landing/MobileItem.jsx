@@ -35,9 +35,9 @@ function MobileItem({ onClikHandler }) {
           </Link>
         </li>
         <li>
-          <Link to="#moshavere" onClick={onClikHandler}>
+          <a href="https://zeeg.me/hamgramco" onClick={onClikHandler}>
             درخواست مشاوره
-          </Link>
+          </a>
         </li>
       </ul>
       {/* <ul > */}

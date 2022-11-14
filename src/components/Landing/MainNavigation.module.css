@@ -20,7 +20,7 @@
 .header ul li {
   display: inline-block;
   cursor: pointer;
-  padding: 2rem 0.5rem;
+  padding: 0rem 0.5rem;
 }
 .rightLink li {
   margin: 0 2rem;
@@ -34,7 +34,11 @@
   display: inline-block;
   margin-left: 1rem;
   cursor: pointer;
-  margin-right: -1.5rem;
+  margin-right: -1rem;
+  margin-top: 1rem;
+}
+.rightLink h5 {
+  font-size: 23px;
 }
 .rightLink h5 svg {
   margin-left: 0.5rem;
@@ -75,11 +79,11 @@
   color: #2f99a5;
 }
 .header svg {
-  margin: 0rem 2rem 0rem 0;
+  margin: -0.8rem 2rem 0rem 0;
 }
 
 .header > svg {
-  margin: 1rem 2rem 0rem 0;
+  margin: 1.4rem 2rem 0rem 0;
 }
 
 .navhandler {
@@ -116,6 +120,11 @@
   padding: 2rem 1rem;
   display: block;
 }
+.mobnav a {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
 @media screen and (max-width: 1430px) {
   .header {
     padding: 0;
@@ -126,7 +135,7 @@
     margin: 0 0.4rem;
   }
   .header ul li {
-    padding: 2rem 0.3rem;
+    padding: 1rem 0.3rem;
   }
 }
 
@@ -167,6 +176,6 @@
     color: #2f99a5 !important;
   }
   .header > svg {
-    margin: -0.3rem 2rem 0rem 0;
+    margin: -0.3rem 1rem 0rem 0;
   }
 }

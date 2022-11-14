@@ -1,12 +1,13 @@
 @font-face {
   font-family: "YekanBakh";
-  src: local("YekanBakh"),
+  src: local("YekanBakh"), local("sans-serif "),
     url("./fonts/YekanBakh/YekanBakh-Regular.ttf") format("truetype");
+
   font-weight: normal;
 }
 @font-face {
   font-family: "YekanBakh" !important;
-  src: local("YekanBakh"),
+  src: local("YekanBakh"), local("sans-serif "),
     url("./fonts/YekanBakh/YekanBakh-Bold.ttf") format("truetype");
   font-weight: bold;
 }
@@ -16,25 +17,43 @@
   --danger: #c11750;
   --success: #128b52;
 }
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
 
 html {
   padding: 0;
   margin: 0;
-  font-family: "YekanBakh" !important;
   scroll-behavior: smooth;
-  font-family: "Raleway", sans-serif;
   overflow-x: hidden;
   direction: rtl;
   scroll-behavior: smooth;
 }
-body {
+body,
+html,
+input {
+  font-family: "YekanBakh", "Raleway", sans-serif !important;
+  /* overflow: hidden; */
   padding: 0 !important;
-  font-family: "YekanBakh";
+  margin: 0;
+}
+
+body button {
+  cursor: pointer;
+}
+button:disabled {
+  cursor: initial;
 }
 
 .main {
   display: flex;
   height: 100vh;
+}
+
+.background {
+  background-color: var(--main);
 }
 
 .NotFound {
@@ -49,40 +68,32 @@ body {
 }
 .swiper {
   overflow: hidden;
-  max-width: 35rem;
+  display: inline-block;
+  width: 100%;
   height: 100%;
-  padding: 0 1rem;
+  text-align: center;
+  padding: 0rem;
 }
 
 .swiper-slide {
   text-align: center;
-  font-size: 14px !important;
-  background: #fff;
-  padding: 0 1rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
   justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  -webkit-align-items: center;
+  font-size: 14px !important;
+  padding: 0rem;
+  margin: 0rem;
   align-items: center;
 }
 
 .swiper-slide img {
-  width: 100%;
-  display: block;
   object-fit: cover;
 }
 .swiper-button-next:after,
 .swiper-button-prev:after {
   color: #2f99a5;
+  display: block;
   font-size: 14px !important;
-  margin: 0 0.5rem;
+  margin: 0 0rem;
   border-radius: 50%;
   font-weight: bolder;
 }
@@ -104,9 +115,12 @@ input:-webkit-autofill:active {
 }
 
 .Toastify__toast-body {
-  font-family: "YekanBakh";
+  font-family: "YekanBakh", "Raleway", sans-serif;
 }
 
 input:focus-visible {
   outline: 0;
+}
+.position-relative {
+  position: relative;
 }

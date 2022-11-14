@@ -1,11 +1,14 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import classes from "./MainNavigation.module.css";
-import { NavLink } from "react-router-dom";
-import { AiOutlineClose } from "react-icons/ai";
-import MainNavigationItems from "./MainNavigationItems";
+// import { NavLink } from "react-router-dom";
+// import { AiOutlineClose } from "react-icons/ai";
+// import MainNavigationItems from "./MainNavigationItems";
 import HamburgurMenu from "../icons/logos/HamburgurMenu";
 import HamgramLogo from "../icons/logos/hamgramLogo";
-import MobileItem from "./MobileItem";
+// import MobileItem from "./MobileItem";
+
+const MobileItem = React.lazy(() => import("./MobileItem"));
+const MainNavigationItems = React.lazy(() => import("./MainNavigationItems"));
 
 function MainNavigation() {
   const [nav, setNav] = useState(false);
@@ -23,7 +26,6 @@ function MainNavigation() {
   return (
     <nav className={classes.header}>
       <HamgramLogo />
-
       <MainNavigationItems />
 
       {/* Hamburger Icon */}

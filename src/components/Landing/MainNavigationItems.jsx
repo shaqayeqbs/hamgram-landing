@@ -40,10 +40,10 @@ function MainNavigationItems() {
       </ul>
       {/* <ul > */}
 
-      <Link to="#moshavere" className={classes.moshavereBtn}>
+      <a href="https://zeeg.me/hamgramco" className={classes.moshavereBtn}>
         {" "}
         درخواست مشاوره
-      </Link>
+      </a>
     </nav>
   );
 }
