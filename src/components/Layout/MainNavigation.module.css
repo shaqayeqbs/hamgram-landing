@@ -22,12 +22,15 @@
   cursor: pointer;
   padding: 0rem 0.5rem;
 }
-.rightLink li {
-  margin: 0 2rem;
+.rightLink li,
+.rightLink li > a {
+  margin: 0 0.8rem;
+  display: block;
   font-weight: 700;
   font-size: 16px;
+  text-decoration: none;
   line-height: 26px;
-  color: rgba(15, 36, 32, 0.4);
+  color: rgba(15, 36, 32, 0.4) !important;
 }
 .rightLink h5,
 .navhandler {
@@ -118,12 +121,18 @@
   direction: ltr;
   text-align: right;
   padding: 2rem 1rem;
+
   display: block;
 }
 .mobnav a {
   color: black;
+  display: block;
+
   text-decoration: none;
   cursor: pointer;
+}
+.mobnav ul li {
+  display: block;
 }
 @media screen and (max-width: 1430px) {
   .header {

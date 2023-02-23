@@ -1,6 +1,7 @@
 import React from "react";
 import classes from "./MainNavigation.module.css";
 import { Link } from "react-scroll";
+import { NavLink } from "react-router-dom";
 
 function MainNavigationItems() {
   return (
@@ -36,6 +37,9 @@ function MainNavigationItems() {
           <Link to="#successful-companinos" offset={-90}>
             همراهان موفق
           </Link>
+        </li>
+        <li>
+          <NavLink to="/price-list">تعرفه ها</NavLink>
         </li>
       </ul>
       {/* <ul > */}

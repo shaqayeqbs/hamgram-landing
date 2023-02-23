@@ -53,7 +53,6 @@ button:disabled {
 }
 
 .background {
-  background-color: var(--main);
 }
 
 .NotFound {
@@ -123,4 +122,128 @@ input:focus-visible {
 }
 .position-relative {
   position: relative;
+}
+.bg-white {
+  background-color: white;
+}
+
+.plan-container {
+  display: flex;
+  text-align: center;
+  width: 100%;
+
+  margin: 3rem auto;
+}
+.plan {
+  margin-left: -5px;
+  width: 100%;
+  display: inline-block;
+
+  vertical-align: top;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+table {
+  width: 100%;
+  min-width: 15rem;
+  border-radius: 4px;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+.table-1 {
+  width: 100%;
+  min-width: 10rem;
+}
+.table-2 {
+  width: 100%;
+  min-width: 10rem;
+}
+.table-4 {
+  width: 100%;
+  min-width: 10rem;
+}
+.table-3 {
+  width: 70%;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+  background: rgba(46, 92, 154, 0.06);
+  border-radius: 24px !important;
+  overflow: hidden;
+}
+.table-3 th {
+  background-color: black;
+  color: white;
+}
+.features {
+  line-height: 50px;
+}
+th {
+  /* border-bottom: 1px solid #ddd; */
+}
+.lead {
+  line-height: 60px;
+}
+tbody tr:nth-child(2n + 1) {
+  background: rgba(46, 92, 154, 0.02);
+}
+.data {
+  line-height: 50px;
+  text-align: center;
+}
+.table-2 .features,
+.table-3 .features,
+.table-4 .features {
+  display: none;
+}
+.button {
+  padding: 10px 25px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-family: inherit;
+  background: var(--main);
+  font-weight: 900;
+  font-size: 18px;
+  color: #fff;
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s;
+  outline: 0;
+}
+.btn a {
+  text-decoration: none;
+  color: inherit;
+}
+/* button:focus,
+button:hover {
+  background: #eb00a6;
+}
+button:active {
+  background: #ad007a;
+} */
+@media screen and (max-width: 1028px) {
+  .plan-container {
+    display: block;
+    margin: auto;
+  }
+  .table-3 {
+    width: 420px;
+  }
+  .table-3 .features {
+    display: table-cell;
+  }
+}
+@media screen and (max-width: 637px) {
+  .plan {
+    display: block;
+  }
+  table {
+    margin: auto;
+    width: 420px;
+  }
+  .table-2 .features,
+  .table-4 .features {
+    display: table-cell;
+  }
 }

@@ -47,6 +47,27 @@ function Footer() {
             </span>
             <span dir="ltr"> @hamgramco</span>
           </Link>
+          <div>
+            <a
+              referrerPolicy="origin"
+              target="_blank"
+              style={{ width: "4rem", height: "4rem", objectFit: "cover" }}
+              href="https://trustseal.enamad.ir/?id=323913&amp;Code=BB1uCmUkPvEdHPhyaLxY"
+            >
+              <img
+                referrerPolicy="origin"
+                src="https://Trustseal.eNamad.ir/logo.aspx?id=323913&amp;Code=BB1uCmUkPvEdHPhyaLxY"
+                alt=""
+                style={{
+                  // width: "4rem",
+                  // height: "4rem",
+                  // objectFit: "cover",
+                  marginTop: "4rem",
+                }}
+                id="BB1uCmUkPvEdHPhyaLxY"
+              />
+            </a>
+          </div>
         </div>
       </div>
     </footer>

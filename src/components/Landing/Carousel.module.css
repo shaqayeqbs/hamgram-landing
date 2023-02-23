@@ -5,6 +5,7 @@
   border-radius: 26px;
   padding: 1rem 3rem;
   font-size: 16px;
+  min-height: 28rem;
   line-height: 35px;
   text-align: center;
   letter-spacing: 0.02em;
@@ -83,6 +84,7 @@
   width: 100%;
   padding: 4px;
   height: 6.25rem;
+  width: 6.25re;
   border-radius: 50%;
 }
 

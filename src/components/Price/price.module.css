@@ -1,0 +1,93 @@
+.container {
+  background: white;
+}
+
+.filter {
+  display: flex;
+  justify-content: flex-start;
+  margin: 0 1rem;
+  padding: 1rem 0;
+  margin-top: -4rem;
+}
+.filter h1 {
+  font-size: 24px;
+  margin-right: 5%;
+  font-weight: bolder !important;
+  margin-top: -2rem;
+}
+
+.dateContainer {
+  background: rgba(72, 118, 180, 0.13);
+  border-radius: 9px;
+  /* width: 60%; */
+  min-width: 60%;
+  display: flex;
+  place-content: space-between;
+  padding: 0.7rem 1rem;
+  text-align: center;
+  margin: auto;
+}
+.dateContainer div {
+  width: 100%;
+  margin: 0 1rem;
+}
+.dateContainer button {
+  border: none;
+  font-size: 24px;
+  font-family: inherit;
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
+  background-color: transparent;
+}
+
+.active {
+  background-color: #2e5c9a !important;
+  border-radius: 6px;
+  padding: 0.1rem 0.8rem;
+  color: white;
+}
+.desktop {
+  display: block;
+}
+.mob {
+  display: none;
+}
+@media screen and (max-width: 490px) {
+  .desktop {
+    display: none;
+  }
+  .mob {
+    display: block;
+  }
+  .container {
+    margin-top: 5rem;
+  }
+  .filter {
+    margin-top: 5rem;
+  }
+  .filter h1 {
+    font-size: 16px;
+    margin-right: 5%;
+    margin-top: -5rem;
+  }
+  .dateContainer {
+    min-width: 100%;
+    display: flex;
+    place-content: space-between;
+    padding: 0.7rem 1rem;
+    text-align: center;
+    margin: auto;
+    height: 4rem;
+    margin-top: -12rem;
+  }
+
+  .dateContainer button {
+    border-radius: 10px;
+    margin-top: 0;
+    width: max-content;
+    font-size: 12px !important;
+    padding: 0.5rem 1rem;
+
+    height: 2.5rem;
+  }
+}
