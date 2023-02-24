@@ -26,7 +26,9 @@ function TopDesign() {
           <div className={classes.center}>
             <div className={classes.linkBtn}>
               {" "}
-              <a href="http://test.hamgramco.ir/dashboard">همین حالا شروع کن</a>
+              <a href="http://dashboard.hamgramco.ir/dashboard">
+                همین حالا شروع کن
+              </a>
             </div>
 
             <Link to="#services" offset={-100}>

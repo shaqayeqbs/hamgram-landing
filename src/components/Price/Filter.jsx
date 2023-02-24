@@ -1,15 +1,17 @@
 import React, { useState } from "react";
 import classes from "./price.module.css";
 
-function Filter() {
-  const [activeIndex, setActiveIndex] = useState(0);
+function Filter({ changePrice }) {
+  const [activeIndex, setActiveIndex] = useState(1);
 
   const FilterHandler = async (e) => {
     let value = e.target.value;
     if (value === "90") {
       setActiveIndex(0);
+      changePrice(749000);
     } else {
       setActiveIndex(1);
+      changePrice(289000);
     }
   };
   return (

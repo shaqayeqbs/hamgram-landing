@@ -33,12 +33,12 @@ function WhatDoWeDo() {
           <div className={classes.WhereIsYourPathMob}>
             <WhereIsYourPathMob />
           </div>
-          <button>
+          {/* <button>
             <div>
               {" "}
               بیشتر بدانید <AiOutlineLeft />
             </div>
-          </button>
+          </button> */}
         </div>
       </Element>
     </>

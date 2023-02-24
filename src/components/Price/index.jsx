@@ -4,13 +4,15 @@ import Filter from "./Filter";
 import classes from "./price.module.css";
 import Table from "./Table";
 import Slider from "./slider";
-function index() {
+import { useState } from "react";
+function Index() {
+  const [price, setPrice] = useState(289000);
   return (
     <section className={classes.container}>
       <PriceList />
-      <Filter />
+      <Filter changePrice={setPrice} />
       <div className={classes.desktop}>
-        <Table />
+        <Table price={price} />
       </div>
       <div className={classes.mob}>
         <Slider />
@@ -19,4 +21,4 @@ function index() {
   );
 }
 
-export default index;
+export default Index;

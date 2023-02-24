@@ -44,7 +44,10 @@ function MainNavigationItems() {
       </ul>
       {/* <ul > */}
 
-      <a href="https://zeeg.me/hamgramco" className={classes.moshavereBtn}>
+      <a
+        href="https://zeeg.me/hamgramco/Meeting"
+        className={classes.moshavereBtn}
+      >
         {" "}
         درخواست مشاوره
       </a>

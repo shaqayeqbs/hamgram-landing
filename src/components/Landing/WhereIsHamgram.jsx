@@ -15,7 +15,7 @@ function WhereIsHamgram() {
             همگرام جاییه که میخواد بهت کمک کنه خودت باشی و با شرایط و امکانات
             خودت کسب و کار آنلاینت رو راه بندازی و توسعش بدی
           </h3>
-          <a href="https://instagram.com/hamgramco?igshid=YmMyMTA2M2Y=">
+          <a href="https://instagram.com/hamgramco">
             <div>hamgramco</div>
             <InstagramIcon />
           </a>

@@ -1,8 +1,9 @@
-import React, { memo } from "react";
+import React, { memo, useState } from "react";
 import classes from "./Table.module.css";
 import TableContent from "./TableContent";
+import { digitsEnToFa } from "@persian-tools/persian-tools";
 
-function CompetitorTable() {
+function CompetitorTable({ price }) {
   const data = [
     { id: "1", title: "salam", period: "" },
     { id: "1", title: "salam" },
@@ -137,7 +138,7 @@ function CompetitorTable() {
                     value="Get Started"
                     role="button"
                   >
-                    <a  href="http://dashboard.hamgramco.ir/dashboard/receiving-app?data=peyment">
+                    <a href="http://dashboard.hamgramco.ir/dashboard/receiving-app?data=peyment">
                       رایگان شروع کنید
                     </a>
                   </button>
@@ -195,7 +196,8 @@ function CompetitorTable() {
                     role="button"
                   >
                     <a href="http://dashboard.hamgramco.ir/dashboard?data=peyment">
-                      ۲۸۹.۰۰۰ تومان
+                      {digitsEnToFa(price.toLocaleString())}
+                      <span className="margin"> تومان</span>
                     </a>
                   </button>
                 </td>

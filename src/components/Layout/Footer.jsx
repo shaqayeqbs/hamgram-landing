@@ -3,6 +3,7 @@ import classes from "./Footer.module.css";
 import HamgramLogo from "../icons/logos/hamgramLogo";
 import { Link } from "react-router-dom";
 import { SiInstagram } from "react-icons/si";
+import { digitsEnToFa } from "@persian-tools/persian-tools";
 
 function Footer() {
   return (
@@ -18,7 +19,9 @@ function Footer() {
         <div>
           <span>الان وقتشه که شروع کنی!</span>
           <div className={classes.linkBtn}>
-            <a href="http://test.hamgramco.ir/dashboard">همین حالا شروع کن</a>
+            <a href="http://dashboard.hamgramco.ir/dashboard">
+              همین حالا شروع کن
+            </a>
           </div>
         </div>
       </div>
@@ -26,7 +29,16 @@ function Footer() {
         <div>
           <h6>ارتباط با ما</h6>
           <p>تلفن:</p>
-          <div>۰۹۲۲۴۱۶۶۷۰۱</div>
+          <div>
+            <span> {digitsEnToFa(77624583)}</span>
+            <span>
+              <span> </span>
+              <span>
+                {" "}
+                - <span>۰{digitsEnToFa(21)}</span>
+              </span>
+            </span>
+          </div>
           <p>آدرس دفتر مرکزی:</p>
           <div>
             خیابان شریعتی، خیابان خواجه نصیر الدین طوسی نبش کوچه گیتی، ساختمان
@@ -37,11 +49,11 @@ function Footer() {
           <h6>خدمات</h6>
           <p>آموزش و مشاوره</p>
           <p>پنل تحلیل رقبا همگرام</p>
-          <p>طراحی محصول (استودیو طراحی وایا)</p>
+          {/* <p>طراحی محصول (استودیو طراحی وایا)</p> */}
         </div>
         <div>
           <h5>به اینستاگرام ما بپیوندید</h5>
-          <Link to="someurl">
+          <Link to="https://instagram.com/hamgramco">
             <span>
               <SiInstagram />
             </span>

@@ -18,7 +18,7 @@ function Services() {
             داده شود. یک پاراگراف توضیخ برای این قسمت در مورد آموزش و مشاوره
             باید قرار داده شود.
           </p>
-          <a href="https://zeeg.me/hamgramco">درخواست مشاوره </a>
+          <a href="https://zeeg.me/hamgramco/Meeting">درخواست مشاوره </a>
         </div>
         <div className={classes.none}>
           {" "}
@@ -35,7 +35,7 @@ function Services() {
             قرار داده شود. یک پاراگراف توضیخ برای این قسمت در موردپنل تحلیل
             رقبای همگرام باید قرار داده شود.
           </p>
-          <a dir="rtl" href="http://test.hamgramco.ir/dashboard">
+          <a dir="rtl" href="http://dashboard.hamgramco.ir/dashboard">
             همین حالا شروع کن
           </a>
         </div>

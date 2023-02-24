@@ -39,7 +39,7 @@ function MobileItem({ onClikHandler }) {
           <NavLink to="/price-list">تعرفه ها</NavLink>
         </li>
         <li>
-          <a href="https://zeeg.me/hamgramco" onClick={onClikHandler}>
+          <a href="https://zeeg.me/hamgramco/Meeting" onClick={onClikHandler}>
             درخواست مشاوره
           </a>
         </li>
