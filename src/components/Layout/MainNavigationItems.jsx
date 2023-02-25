@@ -4,15 +4,25 @@ import { Link } from "react-scroll";
 import { NavLink } from "react-router-dom";
 
 function MainNavigationItems() {
+  const url = window?.location?.href;
   return (
     <nav className={classes.nav}>
       <ul className={classes.rightLink}>
-        <Link to="#hamgram">
-          <h5>
-            <strong>HAMGRAM</strong>
-          </h5>
-        </Link>
+        {url === "https://hamgramco.ir" && (
+          <Link to="#hamgram">
+            <h5>
+              <strong>HAMGRAM</strong>
+            </h5>
+          </Link>
+        )}
 
+        {url != "https://hamgramco.ir" && (
+          <NavLink to="/">
+            <h5>
+              <strong>HAMGRAM</strong>
+            </h5>
+          </NavLink>
+        )}
         <li>
           <Link to="#where-is-hamgram" offset={-100}>
             همگرام کجاست؟

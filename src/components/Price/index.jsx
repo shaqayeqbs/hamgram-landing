@@ -15,7 +15,7 @@ function Index() {
         <Table price={price} />
       </div>
       <div className={classes.mob}>
-        <Slider />
+        <Slider price={price} />
       </div>
     </section>
   );

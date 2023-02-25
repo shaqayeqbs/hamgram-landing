@@ -53,12 +53,12 @@ function Footer() {
         </div>
         <div>
           <h5>به اینستاگرام ما بپیوندید</h5>
-          <Link to="https://instagram.com/hamgramco">
+          <a href="https://instagram.com/hamgramco" target="_blank">
             <span>
               <SiInstagram />
             </span>
             <span dir="ltr"> @hamgramco</span>
-          </Link>
+          </a>
           <div>
             <a
               referrerPolicy="origin"

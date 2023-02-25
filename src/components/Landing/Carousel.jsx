@@ -1,13 +1,12 @@
-import React, { memo } from "react";
+import React, { memo, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import classes from "./Carousel.module.css";
 import { Autoplay, Navigation } from "swiper";
 import "swiper/css/navigation";
-import { FaPlay } from "react-icons/fa";
-import { AiOutlineDown, AiOutlineUp } from "react-icons/ai";
-// import UserImg from "../../../public/images/sarmo.jpg";
+
+import { MdKeyboardArrowRight, MdKeyboardArrowLeft } from "react-icons/md";
 
 const Carousel = ({ data, profileImage }) => {
   const users = [
@@ -41,8 +40,16 @@ const Carousel = ({ data, profileImage }) => {
         "همگرام جوانب مختلف کسب و کار رو به خوبی میشناسه و با زبان ساده بیان میکنه، با همگرام پایه های بیزینسم رو ساختم و دیدی بدست آوردم که تو سخت ترین چالش ها بهترین تصمیم رو بگیرم.",
     },
   ];
+  const [swiper, setSwiper] = useState(null);
+
+  const nextSlide = () => {
+    swiper.slideNext();
+  };
+  const prevSlide = () => {
+    swiper.slidePrev();
+  };
   return (
-    <div className={classes.contaienr}>
+    <div className={`${classes.contaienr} position-relative`}>
       <Swiper
         breakpoints={{
           300: {
@@ -59,13 +66,13 @@ const Carousel = ({ data, profileImage }) => {
           },
         }}
         spaceBetween={0}
-        loop={true}
+        loop={false}
         loopFillGroupWithBlank={true}
         autoplay={{
           delay: 2500,
-          disableOnInteraction: false,
         }}
-        navigation={true}
+        onSwiper={setSwiper}
+        // navigation={true}
         modules={[Autoplay, Navigation]}
         className={classes.container}
       >
@@ -92,6 +99,18 @@ const Carousel = ({ data, profileImage }) => {
           </SwiperSlide>
         ))}
       </Swiper>
+      <div>
+        <button onClick={nextSlide} className="arrowRight">
+          <div>
+            <MdKeyboardArrowRight />
+          </div>
+        </button>
+        <button onClick={prevSlide} className="arrowLeft">
+          <div>
+            <MdKeyboardArrowLeft />
+          </div>
+        </button>
+      </div>
     </div>
   );
 };

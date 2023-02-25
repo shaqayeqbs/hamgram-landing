@@ -23,6 +23,7 @@
 }
 
 .container {
+  position: relative;
   overflow: hidden;
   max-width: unset;
 }
