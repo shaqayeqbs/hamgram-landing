@@ -4,7 +4,7 @@ import NotFound from "./pages/NotFound";
 import "react-toastify/dist/ReactToastify.css";
 import LoadingSpinner from "./components/UI/LoadingSpinner";
 import Layout from "./components/Layout/Layout";
-const LandingPage = React.lazy(() => import("./pages/LandingPage"));
+import LandingPage from "./pages/LandingPage";
 const PriceList = React.lazy(() => import("./pages/PriceList"));
 
 const RoutesList = () => {

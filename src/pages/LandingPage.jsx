@@ -7,11 +7,11 @@ import WhatDoWeDo from "../components/Landing/WhatDoWeDo";
 
 import SuccessfulCompaninos from "../components/Landing/SuccessfulCompaninos";
 
-const Services = React.lazy(() => import("../components/Landing/Services"));
+import Services from "../components/Landing/Services";
 
 function LandingPage() {
   return (
-    <React.Suspense fallback={<>...Loading</>}>
+    <>
       <TopDesign />
       <WhereIsHamgram />
       <WhatDoWeDo />
@@ -22,7 +22,7 @@ function LandingPage() {
       <Element name="#successful-companinos">
         <SuccessfulCompaninos />
       </Element>
-    </React.Suspense>
+    </>
   );
 }
 
